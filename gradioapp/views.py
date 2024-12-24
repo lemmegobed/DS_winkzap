@@ -23,7 +23,7 @@ with gr.Blocks() as demo:
 
     gr.ScatterPlot(df, x="weight", y="height",title="ScatterPlot")
 
-    # gr.ScatterPlot(df, x="weight", y="height", color="ethnicity",title="Breaking out Series by Color")
+    gr.ScatterPlot(df, x="weight", y="height", color="ethnicity",title="Breaking out Series by Color")
 
     # gr.BarPlot(df, x="weight", y="height", x_bin=10, y_aggregate="sum",title="Bar plot")
     
