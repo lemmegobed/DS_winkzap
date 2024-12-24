@@ -21,7 +21,7 @@ with gr.Blocks() as demo:
 
     gr.LinePlot(df, x="weight", y="height",title="LinePlot")
 
-    # gr.ScatterPlot(df, x="weight", y="height",title="ScatterPlot")
+    gr.ScatterPlot(df, x="weight", y="height",title="ScatterPlot")
 
     # gr.ScatterPlot(df, x="weight", y="height", color="ethnicity",title="Breaking out Series by Color")
 
